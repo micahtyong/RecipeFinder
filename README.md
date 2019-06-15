@@ -1,68 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Recipe Finder ##
 
-## Available Scripts
+<img src = "demo/Results.png" width = "500">
 
-In the project directory, you can run:
+Uses Food2Fork's Recipe API to query recipes using user's search. Built using React.
 
-### `npm start`
+## Build Status ##
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project is mainly for the learning experience and getting more comfortable using API's with React applications. Credits go to Hamza Mirza for the idea and tutorial on how to execute such a project.  
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+<img src = "demo/Request.png" width = "500">
 
-### `npm test`
+## Technology and frameworks used ##
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Built with**
+  * ReactJS
+  * HTML + CSS
+  * [RecipeAPI](https://www.food2fork.com/about/api)
+  
+## Installation ## 
 
-### `npm run build`
+1. Clone this repository. 
+2. Navigate to the directory from the command line then run 'npm start'.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How To Use ## 
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+1. Type in a food/drink recipe that you're curious about (i.e. "pizza") in the text fields. 
+2. Hit the 'Search' button.
+3. Choose a recipe that looks good.
+4. Repeat and enjoy!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Credits ## 
 
-### `npm run eject`
+Credits for the recipe fetching API tutorial and CSS styling go to Hamza Mirza. His tutorials on YouTube are extremely detailed and helpful for students like me who are new to programming React applications. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
